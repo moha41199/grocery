@@ -12,12 +12,12 @@ Features:
           create a new customer in the Database. Add, Edit, Delete the product in the DB. Admin can able manage the customer and products.
 Getting Started
 
-    git remote add origin 
+    git remote add origin https://github.com/moha41199/grocery.git
 
     compile and run the angular and spring code
     open up the visual studio and start the server using ng serve(command)
 Usage:
 
-          open the visual studio code and start the server using ng serve command and it will be visible on LocalHost:4200(port number). there are two modules in this project admin and user.
-          admin can able to add new product , edit the existing product details, and delete product . what are the product admin added it will be directly show in user dashboard.
-          user can able to see all the product details and which product they want they can able add product i
+          open the visual studio code and start the server using ng serve command and it will be visible on LocalHost:4200(port number). there are two modules in this project               admin and user.
+          admin can able to add new product , edit the existing product details, and delete the product details. what are the product admin added it will be directly show in user           dashboard.
+          user can able to see all the product details and which product they want they can able add product in add to cart.
