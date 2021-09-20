@@ -12,7 +12,7 @@ Features:
           create a new customer in the Database. Add, Edit, Delete the product in the DB. Admin can able manage the customer and products.
 Getting Started
 
-    git remote add origin https://github.com/moha41199/grocery.git
+    git remote add origin https://github.com/moha41199/grocery_store_system.git
 
     compile and run the angular and spring code
     open up the visual studio and start the server using ng serve(command)
