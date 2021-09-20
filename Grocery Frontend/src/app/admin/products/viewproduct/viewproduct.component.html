@@ -1,0 +1,19 @@
+    <h1>Product Details</h1>
+    
+    <table>
+      <tr>
+        <td>Product Id</td><td>{{product.id}}</td>
+      </tr>
+      <tr>
+        <td>Product Name</td><td>{{product.name}}</td>
+      </tr>
+      <tr>
+        <td>Product Price</td><td>{{product.price}}</td>
+      </tr>
+    </table>
+    <br>
+              <img src="{{product.retrievedImage}}" height="200" width="200">
+  <br><br>
+    
+    <a class="btn btn-small btn-warning" (click)="editProduct()">edit</a>   
+    <a class="btn btn-small btn-danger" (click)="deleteProduct()">delete</a>

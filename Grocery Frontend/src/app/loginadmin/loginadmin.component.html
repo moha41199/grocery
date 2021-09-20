@@ -1,0 +1,40 @@
+<body>
+  <div class="container">
+    <img src="../../assets/3.jpg" />
+
+    <div class="dispCol">
+      <div class="title">
+        <p>AdminLogin</p>
+      </div>
+      <form>
+        <div class="login-container">
+          <div class="login-data">
+            <div class="login">
+              <p>Name: </p>
+              <input #nameInput type="text" placeholder="admin name" />
+            </div>
+            <br />
+            <div class="login">
+              <p>password: </p>
+              <input
+                #passwordInput
+                type="password"
+                placeholder="admin password"
+              />
+            </div>
+          </div>
+          <br />
+          <button
+            type="button"
+            (click)="login(nameInput.value, passwordInput.value)"
+          >
+            Login
+          </button>
+        </div>
+        <p><font color="black" size="5">or</font></p>
+       <strong> <a href="login"> Login As User</a></strong>
+      </form>
+    </div>
+  </div>
+</body>
+

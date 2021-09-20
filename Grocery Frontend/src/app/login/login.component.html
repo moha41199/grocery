@@ -1,0 +1,41 @@
+<body>
+  <div class="container">
+    <img src="../../assets/3.jpg" />
+
+    <div class="dispCol">
+      <div class="title">
+        <p>Grocery</p>
+      </div>
+      <form>
+        <div class="login-container">
+          <div class="login-data">
+            <div class="login">
+              <p>Name: </p>
+              <input #nameInput type="text" placeholder="enter name" />
+            </div>
+            <br />
+            <div class="login">
+              <p>password: </p>
+              <input
+                #passwordInput
+                type="password"
+                placeholder="enter password"
+              />
+            </div>
+          </div>
+          <br />
+          <button
+            type="button"
+            (click)="login(nameInput.value, passwordInput.value)"
+          >
+            Login
+          </button>
+        </div>
+        <p><font color="black" size="5">or</font></p>
+        <strong><a href="loginadmin"> Login As Admin</a></strong>
+        <br>
+        <br>
+      </form>
+    </div>
+  </div>
+</body>
